@@ -9,7 +9,11 @@
   "vehicle_number",
   "make",
   "column_break_dzeo",
-  "model"
+  "model",
+  "section_break_ueyt",
+  "dem_company",
+  "column_break_trqe",
+  "dem_branch"
  ],
  "fields": [
   {
@@ -31,12 +35,32 @@
    "fieldname": "make",
    "fieldtype": "Data",
    "label": "Make"
+  },
+  {
+   "fieldname": "section_break_ueyt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dem_company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "DEM Company"
+  },
+  {
+   "fieldname": "column_break_trqe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dem_branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "DEM Branch"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-08 12:32:32.248129",
+ "modified": "2026-01-09 12:51:00.651405",
  "modified_by": "Administrator",
  "module": "DEM",
  "name": "DEM Vehicle",

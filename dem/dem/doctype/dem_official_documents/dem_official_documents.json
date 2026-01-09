@@ -8,7 +8,11 @@
  "field_order": [
   "document_id",
   "column_break_uzem",
-  "cr"
+  "cr",
+  "section_break_daff",
+  "dem_company",
+  "column_break_gbbk",
+  "dem_branch"
  ],
  "fields": [
   {
@@ -25,12 +29,32 @@
    "fieldname": "cr",
    "fieldtype": "Data",
    "label": "CR"
+  },
+  {
+   "fieldname": "section_break_daff",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dem_company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "DEM Company"
+  },
+  {
+   "fieldname": "column_break_gbbk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dem_branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "DEM Branch"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-08 12:32:02.938049",
+ "modified": "2026-01-09 12:52:07.152898",
  "modified_by": "Administrator",
  "module": "DEM",
  "name": "DEM Official Documents",

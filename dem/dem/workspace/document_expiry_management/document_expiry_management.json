@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"GOGXY3nHV9\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Document Expiry Management</span>\",\"col\":12}},{\"id\":\"HKNmBnzc_6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hierarchy\",\"col\":3}},{\"id\":\"Cet_seEufS\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"kzVnFgB7_y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Company\",\"col\":3}},{\"id\":\"XFTkC9upVj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Branch\",\"col\":3}},{\"id\":\"u1Ismk7BqP\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"3NYCOJC79a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle\",\"col\":3}},{\"id\":\"p_RNypWCaO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"yH_OpkDdnr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Official Documents\",\"col\":3}}]",
+ "content": "[{\"id\":\"GOGXY3nHV9\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Document Expiry Management</span>\",\"col\":12}},{\"id\":\"SlJWWNYsWd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"DEM Portal Page\",\"col\":3}},{\"id\":\"yQ3tRO1LNb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"HKNmBnzc_6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hierarchy\",\"col\":3}},{\"id\":\"Cet_seEufS\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"kzVnFgB7_y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Company\",\"col\":3}},{\"id\":\"XFTkC9upVj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Branch\",\"col\":3}},{\"id\":\"u1Ismk7BqP\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"p_RNypWCaO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"3NYCOJC79a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle\",\"col\":3}},{\"id\":\"yH_OpkDdnr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Official Documents\",\"col\":3}}]",
  "creation": "2026-01-06 14:18:10.509984",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "Document Expiry Management",
  "links": [],
- "modified": "2026-01-08 13:06:20.737534",
+ "modified": "2026-01-09 10:04:40.524558",
  "modified_by": "Administrator",
  "module": "DEM",
  "name": "Document Expiry Management",
@@ -46,6 +46,13 @@
    "link_to": "DEM Official Documents",
    "stats_filter": "[]",
    "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "DEM Portal Page",
+   "link_to": "dem-page",
+   "type": "Page"
   },
   {
    "color": "Grey",

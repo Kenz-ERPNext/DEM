@@ -14,7 +14,7 @@
   "company_details_section",
   "dem_company",
   "column_break_erke",
-  "branch"
+  "dem_branch"
  ],
  "fields": [
   {
@@ -53,22 +53,22 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "branch",
-   "fieldtype": "Link",
-   "label": "Branch",
-   "options": "DEM Branch"
-  },
-  {
    "fieldname": "dem_company",
    "fieldtype": "Link",
    "label": "Company",
    "options": "DEM Company"
+  },
+  {
+   "fieldname": "dem_branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "DEM Branch"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-08 12:33:02.475313",
+ "modified": "2026-01-09 13:05:59.224072",
  "modified_by": "Administrator",
  "module": "DEM",
  "name": "DEM Employee",
