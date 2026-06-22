@@ -10,12 +10,12 @@
  "idx": 0,
  "indicator_color": "green",
  "is_hidden": 0,
- "label": "Document Expiry Management",
+ "label": "DEM",
  "links": [],
- "modified": "2026-01-09 10:04:40.524558",
+ "modified": "2026-06-22 16:35:00.000000",
  "modified_by": "Administrator",
  "module": "DEM",
- "name": "Document Expiry Management",
+ "name": "DEM",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
@@ -79,5 +79,5 @@
    "type": "DocType"
   }
  ],
- "title": "Document Expiry Management"
+ "title": "DEM"
 }
